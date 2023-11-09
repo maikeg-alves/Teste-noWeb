@@ -6,7 +6,6 @@ h2 {
   background-image: url("../../assets/cover/cover-products.svg");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
   width: 100%;
   background-size: contain;
   background-position: top;
@@ -15,11 +14,6 @@ h2 {
 
 .title-products h2 {
   text-align: center;
-}
-
-.content-container {
-  position: relative;
-  z-index: 1;
 }
 
 .list-products {

@@ -1,0 +1,49 @@
+.about {
+  margin: 40px 0;
+}
+
+.title-about h2 {
+  color: var(--azul-mais-escuro);
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.cover-about {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background-color: #f7f7f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-retangule {
+  position: absolute;
+  background: var(--azul-mais-escuro);
+  width: 390px;
+  min-height: 329px;
+  z-index: 1;
+  left: 0;
+  top: 33%;
+}
+
+.img-about {
+  display: flex;
+  justify-content: center;
+  align-items: centers;
+}
+
+.img-about img {
+  min-height: 435px;
+  width: 100%;
+  z-index: 2;
+}
+
+.button-about button {
+  width: 360px;
+  height: 63px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+}
