@@ -60,9 +60,7 @@
   justify-content: space-between;
 }
 
-.preco-original,
-.price-promo,
-span {
+.custom-style span {
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -71,6 +69,7 @@ span {
   height: 51px;
   width: 100%;
   border-radius: 15px 0px 0px 15px;
+  padding: 15px;
 }
 
 .preco-original span {

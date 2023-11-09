@@ -18,13 +18,13 @@ const CardProduto: React.FC<CardProdutoProps> = ({ produto }) => {
       <div className="w-100">
         <h3 className="nome">{produto.nome}</h3>
         <div className="preco">
-          <div className="preco-original">
+          <div className="preco-original custom-style">
             {produto.precoPromocional !== produto.precoOriginal && (
               <span>R$ {produto.precoOriginal.toFixed(2)}</span>
             )}
           </div>
 
-          <div className="price-promo">
+          <div className="price-promo custom-style">
             <span>R$ {produto.precoPromocional.toFixed(2)}</span>
           </div>
         </div>

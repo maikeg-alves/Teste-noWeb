@@ -16,6 +16,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 5rem;
 }
 
 .about-retangule {
@@ -46,4 +47,8 @@
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
+}
+
+.text p {
+  color: var(--azul-mais-escuro);
 }

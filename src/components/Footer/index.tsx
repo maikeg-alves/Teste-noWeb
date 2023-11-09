@@ -5,8 +5,8 @@ interface FooterProps {}
 const Footer: React.FunctionComponent<FooterProps> = () => {
   return (
     <>
+      {/* infelizmente não deu tempo  :( */}
       <h1>Footer</h1>
-      <p></p>
     </>
   );
 };

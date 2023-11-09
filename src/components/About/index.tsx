@@ -9,7 +9,7 @@ interface AboutProps {}
 const About: React.FunctionComponent<AboutProps> = () => {
   return (
     <>
-      <div className="cover-about">
+      <div className="cover-about ">
         <div className="about-retangule"></div>
         <Container className="about">
           <div className="title-about">
