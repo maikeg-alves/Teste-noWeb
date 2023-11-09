@@ -1,0 +1,80 @@
+.navigation-mobile {
+  display: none;
+}
+
+.menu-toggle {
+  display: block;
+  background: none;
+  color: #fff;
+  border: none;
+  padding: 0;
+}
+
+.menu-close {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.menu-close button {
+  padding: 10px;
+  color: red;
+  background-color: var(--amarelo);
+}
+
+.menu-toggle button {
+  background: border-box;
+}
+
+.menu-toggle svg {
+  width: 35px;
+  height: 35px;
+}
+
+.menu-toggle:focus {
+  background: none;
+}
+
+.menu {
+  width: 250px;
+  height: 100%;
+  background-color: var(--amarelo);
+  color: #fff;
+  position: fixed;
+  top: 0;
+  right: -250px;
+  transition: right 0.3s ease-in-out;
+  box-shadow: -10px 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.menu.open {
+  right: 0;
+}
+
+.menu-content {
+  padding: 20px;
+}
+
+.menu ul {
+  list-style: none;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 60%;
+}
+
+.menu li {
+  margin-bottom: 10px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+}
+
+@media (max-width: 768px) {
+  .navigation-mobile {
+    display: block;
+  }
+}

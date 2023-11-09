@@ -1,0 +1,88 @@
+@import url("./styles/fonts/fonts.css");
+
+:root {
+  font-family: "GothamPro", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  --font-family: "GothamPro", sans-serif;
+  --line-height: 1.5;
+  --font-weight: 400;
+
+  /* color variable */
+
+  --azul-eletrica: #1f2860;
+  --azul-mais-escuro: #202332;
+  --amarelo: #fbaf17;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h,
+p {
+  font-family: var(--font-family);
+}
+
+h1 {
+  font-size: 3.2em;
+  font-weight: bold;
+}
+
+h2.bold {
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+h4 {
+  font-size: 16px;
+}
+
+h5 {
+  font-size: 14px;
+}
+
+h6 {
+  font-size: 12px;
+}
+
+p,
+span {
+  font-size: medium;
+  color: var(--azul-mais-escuro);
+  margin: 0;
+}
+
+a {
+  text-decoration: inherit;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+}
